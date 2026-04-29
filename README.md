@@ -1,2 +1,9 @@
 # node-install-cmd
-node.js安装指令（windows版本）
+个人常用 Node.js 安装、版本管理、环境配置指令集合
+
+## 资源下载
+安装包：
+https://nodejs.org/zh-cn/download
+<img width="1472" height="1074" alt="image" src="https://github.com/user-attachments/assets/b06b5822-7929-4711-b059-89b74ebe3f7d" />
+
+
