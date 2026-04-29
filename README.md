@@ -32,9 +32,11 @@ npm config get cache
 ## 三、环境变量配置
 ### 1、创建系统变量 NODE_PATH （变量值：node_global文件夹 的路径 + \node_modules）
 <img width="838" height="778" alt="image" src="https://github.com/user-attachments/assets/491e132d-d028-4228-9fef-ffb5b0eeccff" />
+
 ### 2、把默认的 ...AppData\Roaming\npm 改成你的 node_global 路径
 <img width="798" height="766" alt="image" src="https://github.com/user-attachments/assets/657d4b06-fb44-46c2-ac44-42b98a228ced" />
 <img width="796" height="772" alt="image" src="https://github.com/user-attachments/assets/cd7aafe3-6773-41f4-b17f-8f0da953be49" />
+
 ### 3、在“系统变量”里选择 Path -> “编辑” -> “新建” -> 输入：%NODE_PATH%
 <img width="795" height="775" alt="image" src="https://github.com/user-attachments/assets/d27ee78f-ae34-4518-be27-f58ab1c44f9d" />
 
