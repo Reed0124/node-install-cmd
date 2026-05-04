@@ -29,7 +29,7 @@ npm config get prefix
 npm config get cache
 <img width="1481" height="760" alt="image" src="https://github.com/user-attachments/assets/0af1ee69-ea3f-433d-9195-a1aa1e4f4b1a" />
 
-## 三、环境变量配置
+## 三、环境变量配置（已废除）
 ### 1、创建系统变量 NODE_PATH （变量值：node_global文件夹 的路径 + \node_modules）
 <img width="838" height="778" alt="image" src="https://github.com/user-attachments/assets/491e132d-d028-4228-9fef-ffb5b0eeccff" />
 
@@ -42,13 +42,9 @@ npm config get cache
 
 全部保存退出
 
-## 四、测试是否配置
-### 终端管理员全局安装 Express 框架
-<img width="1481" height="760" alt="image" src="https://github.com/user-attachments/assets/ecdd4f7a-7d05-424b-81be-e44f8cd31b6d" />
-配置成功
 
-## 五、设置 npm 国内镜像（可选）
-npm config set registry https://mirrors.cloud.tencent.com/npm/  # 腾讯云
+## 四、设置 npm 国内镜像（可选）
+npm config set registry https://registry.npmmirror.com
 <img width="1481" height="760" alt="image" src="https://github.com/user-attachments/assets/d686a981-70af-4c5e-bd8a-142b20df7440" />
 
 
