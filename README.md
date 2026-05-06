@@ -3,7 +3,9 @@
 
 ## 一、资源下载
 ### 1、安装包：
+```
 https://nodejs.org/zh-cn/download
+```
 <img width="1472" height="1074" alt="image" src="https://github.com/user-attachments/assets/b06b5822-7929-4711-b059-89b74ebe3f7d" />
 
 ### 2、全部默认一键安装，其中只需要将安装路径安装在D盘
@@ -17,7 +19,9 @@ https://nodejs.org/zh-cn/download
 
 ## 二、修改相关配置（按 Win + X -> 选择 终端管理员）
 ### 解除 PowerShell 默认脚本禁用限制，让 npm 等全局命令正常运行，仅对当前用户生效
+```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 <img width="1481" height="760" alt="image" src="https://github.com/user-attachments/assets/51fde984-9b1e-49ad-b826-b6f2fe65993f" />
 
 ### 修改npm全局安装包的默认路径
@@ -29,7 +33,7 @@ npm config set prefix "D:\develop\nodejs\node_global"
 npm config set cache "D:\develop\nodejs\node_cache"
 ```
 ### 查看是否修改成功
-``` bash
+```bash
 npm config get prefix
 npm config get cache
 ```
@@ -46,11 +50,12 @@ npm config get cache
 ### 3、在“系统变量”里选择 Path -> “编辑” -> “新建” -> 输入：%NODE_PATH%
 <img width="795" height="775" alt="image" src="https://github.com/user-attachments/assets/d27ee78f-ae34-4518-be27-f58ab1c44f9d" />
 
-全部保存退出
-
+### 全部保存退出
 
 ## 四、设置 npm 国内镜像（可选）
+```
 npm config set registry https://registry.npmmirror.com
+```
 
 
 
