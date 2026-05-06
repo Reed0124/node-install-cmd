@@ -12,7 +12,7 @@ https://nodejs.org/zh-cn/download
 ### 3、查看是否安装成功
 <img width="871" height="480" alt="image" src="https://github.com/user-attachments/assets/c024c01b-4c4a-46e6-9a58-23e8e319d75e" />
 
-### 4、新建 npm 的全局安装路径（防止C盘占用）和缓存路径
+### 4、新建 npm 的全局安装路径和缓存路径（防止C盘占用）
 <img width="1067" height="769" alt="image" src="https://github.com/user-attachments/assets/9cd9da86-3204-4cbb-9850-e68b8721b6aa" />
 
 ## 二、修改相关配置（按 Win + X -> 选择 终端管理员）
