@@ -21,7 +21,9 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 <img width="1481" height="760" alt="image" src="https://github.com/user-attachments/assets/51fde984-9b1e-49ad-b826-b6f2fe65993f" />
 
 ### 修改npm全局安装包的默认路径
+```bash
 npm config set prefix "D:\develop\nodejs\node_global"
+```
 ### 修改npm全局缓存路径
 npm config set cache "D:\develop\nodejs\node_cache"
 ### 查看是否修改成功
