@@ -25,10 +25,14 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 npm config set prefix "D:\develop\nodejs\node_global"
 ```
 ### 修改npm全局缓存路径
+```bash
 npm config set cache "D:\develop\nodejs\node_cache"
+```
 ### 查看是否修改成功
+``` bash
 npm config get prefix
 npm config get cache
+```
 <img width="1481" height="760" alt="image" src="https://github.com/user-attachments/assets/0af1ee69-ea3f-433d-9195-a1aa1e4f4b1a" />
 
 ## 三、环境变量配置（已废除，现在msi版本下载的可以勾选自动配置环境变量）
